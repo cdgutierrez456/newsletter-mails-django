@@ -36,6 +36,8 @@ INSTALLED_APPS = [
 
 TAILWIND_APP_NAME = 'theme'
 
+EMAIL_HOST_USER = 'mail@mail.com'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
